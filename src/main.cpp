@@ -5,20 +5,30 @@
 
 using namespace VulkanUI;
 
+Window * window;
+Vulkan * vulkan;
+
+void onWindowResized(GLFWwindow* window, int width, int height) {
+	Window* app = reinterpret_cast<Window*>(glfwGetWindowUserPointer(window));
+	vulkan->recreateSwapChain();
+}
+
 int main() {
 
     std::cout << "Hello world " << std::endl;
 
-    Window * window = new Window();
-    Vulkan * vulkan = new Vulkan(window);
+    window = new Window();
+    vulkan = new Vulkan(window);
+	glfwSetWindowSizeCallback(window->window, onWindowResized);
 
     while (!window->ShouldClose()) {
         window->Poll();
 		vulkan->DrawFrame();
     }
 
+	vulkan->Terminate();
+	delete vulkan;
     delete window;
-    delete vulkan;
 
     return 0;
 }

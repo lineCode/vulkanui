@@ -28,7 +28,10 @@ namespace VulkanUI {
         void Terminate ();
 
 		void DrawFrame ();
+		void recreateSwapChain ();
     private:
+		Window * theWindow;
+
         VkInstance instance;
         VkDebugReportCallbackEXT callback;
 
@@ -70,9 +73,10 @@ namespace VulkanUI {
         void pickPhysicalDevice ();
         void createLogicalDevice ();
 
-		void createSurface (GLFWwindow * window);
+		void createSurface ();
 
 		SwapChainSupportDetails querySwapChainSupport(VkPhysicalDevice device);
+		VkExtent2D chooseSwapExtent(const VkSurfaceCapabilitiesKHR& capabilities);
 		void createSwapChain ();
 		void createImageViews();
 
@@ -85,6 +89,8 @@ namespace VulkanUI {
 		void createCommandBuffers ();
 
 		void createSemaphores();
+
+		void cleanupSwapChain ();
 	};
 }
 

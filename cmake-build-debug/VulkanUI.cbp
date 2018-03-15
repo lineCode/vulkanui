@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VulkanUI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\external\;CMake Files\src\external\glfw\;CMake Files\src\external\glfw\CMake\;CMake Files\src\external\glfw\CMake\modules\;CMake Files\src\external\glfw\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VulkanUI">
+				<Option output="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/VulkanUI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/include"/>
+					<Add directory="C:/VulkanSDK/1.0.65.1/Include"/>
+					<Add directory="C:/mingw64/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 VulkanUI"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VulkanUI/fast">
+				<Option output="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/VulkanUI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/include"/>
+					<Add directory="C:/VulkanSDK/1.0.65.1/Include"/>
+					<Add directory="C:/mingw64/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 VulkanUI/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shaders">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 Shaders"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/include"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src"/>
+					<Add directory="C:/mingw64/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/include"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src"/>
+					<Add directory="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src"/>
+					<Add directory="C:/mingw64/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw64\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug/src/external/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/config.h">
+			<Option target="VulkanUI"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/graphics/vulkan.cpp">
+			<Option target="VulkanUI"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/graphics/vulkan.h">
+			<Option target="VulkanUI"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/graphics/window.cpp">
+			<Option target="VulkanUI"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/graphics/window.h">
+			<Option target="VulkanUI"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/main.cpp">
+			<Option target="VulkanUI"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\external\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\external\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\src\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\src\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/ldd20/CLionProjects/VulkanUI/src/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\external\glfw\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

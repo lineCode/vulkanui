@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\ldd20\CLionProjects\VulkanUI
+-- Found Vulkan: C:/VulkanSDK/1.0.65.1/Lib32/vulkan-1.lib  
+-- Found Vulkan: C:/Windows/System32/vulkan-1.dll  
+-- Using Win32 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/ldd20/CLionProjects/VulkanUI/cmake-build-debug

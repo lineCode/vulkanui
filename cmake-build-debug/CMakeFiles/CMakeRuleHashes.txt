@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+2116ff5035486b74915f0e7c1faf75d1 CMakeFiles/Shaders
+9f752b1594929c6561703850223abc04 shaders/test.frag
+8106989026897017df940ccafd2a309f shaders/test.vert
+414980888b2af908e78b194aaa46d257 src/external/glfw/CMakeFiles/uninstall

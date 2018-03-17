@@ -22,6 +22,7 @@ file(GLOB_RECURSE GLSL_SOURCE_FILES
 
 # TODO: remove shaders folder before generation
 # file(REMOVE "${PROJECT_BINARY_DIR}/shaders/")
+# file(REMOVE "$<TARGET_FILE_DIR:VulkanUI>/shaders/")
 
 foreach(GLSL ${GLSL_SOURCE_FILES})
     get_filename_component(FILE_NAME ${GLSL} NAME)

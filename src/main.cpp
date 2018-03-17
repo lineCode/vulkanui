@@ -23,6 +23,7 @@ int main() {
 
     while (!window->ShouldClose()) {
         window->Poll();
+		vulkan->updateUniformBuffer();
 		vulkan->DrawFrame();
     }
 
